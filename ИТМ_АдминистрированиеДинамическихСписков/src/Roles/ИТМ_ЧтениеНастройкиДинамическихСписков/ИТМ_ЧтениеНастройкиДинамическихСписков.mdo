@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a041242-7803-4d21-9f93-6d83d87003ac">
+  <name>ИТМ_ЧтениеНастройкиДинамическихСписков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение настройки динамических списков (ИТМ)</value>
+  </synonym>
+</mdclass:Role>

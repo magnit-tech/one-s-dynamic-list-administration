@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbfd9050-d6e0-4709-8608-ee14d27b9c41">
+  <name>ИТМ_АдминистрированиеДинамическихСписковПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование динамических списков повт исп (ИТМ)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

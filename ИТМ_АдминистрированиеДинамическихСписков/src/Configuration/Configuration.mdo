@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="60684389-fae3-4377-9d90-5ccee5109fda">
+  <name>ИТМ_АдминистрированиеДинамическихСписков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование динамических списков (ИТМ)</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Notify</compatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3a11f18f-287d-4f46-b062-7e015df243fc"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4762cf60-06ef-4de9-a5dc-f93e7125e0fd"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d648d2a3-edb9-414f-9e7e-064d422095d1"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="78e348bd-8145-46ce-a86e-5e7e4d5ff24d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1f30b908-4b61-47d4-9da0-5cfd07d5ff12"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="45521a02-6323-4d9c-bd14-51db70a767a6"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="cf195e7f-ccf1-41d5-92f5-3b5190af1874"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ИТМ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.0.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
+  <languages uuid="223ad8d6-c917-48b1-8ec8-697137fb1781">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ИТМ_АдминистрированиеДинамическихСписков</subsystems>
+  <roles>Role.ИТМ_ИзменениеИсторияОбновленияДинамическихСписков</roles>
+  <roles>Role.ИТМ_ИзменениеНастройкиДинамическихСписков</roles>
+  <roles>Role.ИТМ_ЧтениеИсторияОбновленияДинамическихСписков</roles>
+  <roles>Role.ИТМ_ЧтениеНастройкиДинамическихСписков</roles>
+  <commonModules>CommonModule.ИТМ_АдминистрированиеДинамическихСписков</commonModules>
+  <commonModules>CommonModule.ИТМ_АдминистрированиеДинамическихСписковВызовСервера</commonModules>
+  <commonModules>CommonModule.ИТМ_АдминистрированиеДинамическихСписковКлиент</commonModules>
+  <commonModules>CommonModule.ИТМ_АдминистрированиеДинамическихСписковКлиентПереопределяемый</commonModules>
+  <commonModules>CommonModule.ИТМ_АдминистрированиеДинамическихСписковКлиентСервер</commonModules>
+  <commonModules>CommonModule.ИТМ_АдминистрированиеДинамическихСписковПереопределяемый</commonModules>
+  <commonModules>CommonModule.ИТМ_АдминистрированиеДинамическихСписковПовтИсп</commonModules>
+  <catalogs>Catalog.КлючевыеОперации</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <informationRegisters>InformationRegister.ИТМ_ИсторияОбновленияДинамическихСписков</informationRegisters>
+  <informationRegisters>InformationRegister.ИТМ_НастройкиДинамическихСписков</informationRegisters>
+</mdclass:Configuration>

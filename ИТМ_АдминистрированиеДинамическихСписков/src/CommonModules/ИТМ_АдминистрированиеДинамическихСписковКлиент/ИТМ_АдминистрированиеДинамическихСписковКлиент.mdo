@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ac9f156-69a1-496e-9491-f78f91936b48">
+  <name>ИТМ_АдминистрированиеДинамическихСписковКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование динамических списков клиент (ИТМ)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

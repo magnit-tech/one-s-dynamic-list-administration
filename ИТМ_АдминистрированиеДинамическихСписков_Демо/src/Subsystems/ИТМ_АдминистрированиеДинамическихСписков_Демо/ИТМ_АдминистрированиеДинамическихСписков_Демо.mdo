@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31c86f7a-8927-4b5f-8a81-5bc90fc4e542">
+  <name>ИТМ_АдминистрированиеДинамическихСписков_Демо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование динамических списков демо</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.ИТМ_ТестовыйДокумент</content>
+  <content>Catalog.ИТМ_ТестовыйСправочник</content>
+</mdclass:Subsystem>

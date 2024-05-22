@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d56d518c-6cbb-4d0f-bc3a-935131f8d7ef">
+  <producedTypes>
+    <objectType typeId="b83af352-73ad-48aa-8d69-ef7c3c1615c6" valueTypeId="ec48eceb-f70e-4aff-bf90-5a00f9de6b04"/>
+    <refType typeId="34a45d8a-5410-4cf7-a02d-f8cff777bf55" valueTypeId="2804be1d-ea9e-48a4-ba59-49ad4734c212"/>
+    <selectionType typeId="e5270e71-3111-43e7-b1e5-58c1a465b287" valueTypeId="3e89a03e-4c25-4214-bf66-fa367ada05a8"/>
+    <listType typeId="b2913c29-f30a-45f8-be5b-075e578d496c" valueTypeId="1a5eec62-1db7-4121-bb7f-b5e5172f0e24"/>
+    <managerType typeId="33bd8780-718b-4a13-a5c0-ff37fa3cedd4" valueTypeId="f540087d-608e-49ec-83a2-e4d8cef9e43c"/>
+  </producedTypes>
+  <name>ИТМ_ТестовыйСправочник</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИТМ тестовый справочник</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИТМ_ТестовыйСправочник.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИТМ_ТестовыйСправочник.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ИТМ_ТестовыйСправочник.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="d521acf3-7462-45c5-9d7f-f9192238c57d">
+    <name>Строка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e537ea4-9988-4fbd-9e04-cad49ec74047">
+    <name>Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f51c43a2-09db-496b-a77e-95bfef900cc9">
+    <name>ПростаяСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простая ссылка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ИТМ_ТестовыйДокумент</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="311e3207-a64b-4116-8bb8-2a96d39217e3">
+    <name>Составной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Составной</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>DocumentRef.ИТМ_ТестовыйДокумент</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="5b9c0b5c-54ec-4412-8f93-275d542b1b2e">
+    <producedTypes>
+      <objectType typeId="de873c8a-467c-4bca-b50e-55cd336c9077" valueTypeId="a9fe205d-42cb-423f-b448-9e4bffab5deb"/>
+      <rowType typeId="147f94a7-30c4-46ed-82a8-b1c4e63b9bec" valueTypeId="d7149f60-d010-4505-a8a6-c715d9d1cdc6"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <attributes uuid="726f680e-fcf0-4742-b70e-76335abcba4f">
+      <name>Строка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8c379301-6510-467e-be0c-1d6bdedbb76b">
+      <name>Число</name>
+      <synonym>
+        <key>ru</key>
+        <value>Число</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="45a4e295-956c-45d6-9b14-692d75b3e0e3">
+      <name>ПростаяСсылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Простая ссылка</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ИТМ_ТестовыйДокумент</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fd973dce-13f8-407f-b03d-e6ed2dc6d102">
+      <name>Составной</name>
+      <synonym>
+        <key>ru</key>
+        <value>Составной</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <types>DocumentRef.ИТМ_ТестовыйДокумент</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="057463af-4ef8-4ac1-90cb-56f9f7a0abeb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

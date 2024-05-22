@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ebecf3a-5bb3-4474-b345-bde0d6236829">
+  <name>ИТМ_АдминистрированиеДинамическихСписковКлиентПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИТМ администрирование динамических списков клиент переопределяемый</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
