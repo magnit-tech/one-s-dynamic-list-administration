@@ -16,7 +16,8 @@
         "Typo": {
           "minWordLength": 4,
           "userWordsToIgnore": "SVOD"
-        }
+        },
+        "allowParensInComparisons": true
       }
     }
   }
